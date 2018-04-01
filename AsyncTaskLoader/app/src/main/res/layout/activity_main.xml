@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.danaya.asynctaskloader.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Example Tasks"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_gravity="center"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+
+        <Button
+            android:id="@+id/button_startTask1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Start Task"
+            android:layout_columnWeight="1"
+            android:onClick="startTask1"/>
+        <Button
+            android:id="@+id/button_startTask2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Start Task"
+            android:layout_columnWeight="1"
+            android:onClick="startTask2"/>
+        <TextView
+            android:id="@+id/textView_Task1status"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="textView"
+            android:layout_gravity="center"
+            android:layout_columnWeight="1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+        <TextView
+            android:id="@+id/textView_Task2status"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="textView"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    </GridLayout>
+
+</LinearLayout>

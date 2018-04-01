@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ActivityPlay</string>
+    <string name="textView_Main1_reply">Activity 1</string>
+    <string name="button_main_send">Send</string>
+    <string name="textView2_header">TextView</string>
+    <string name="editText_Hint">Type your response in here.</string>
+</resources>

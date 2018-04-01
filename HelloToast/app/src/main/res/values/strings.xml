@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Hello Toast</string>
+    <string name="button_label_toast">SAY HELLO</string>
+</resources>

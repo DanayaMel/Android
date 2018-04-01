@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.danaya.helloconstraint.MainActivity">
+
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:background="@color/colorPrimary"
+        android:onClick="showToast"
+        android:paddingVertical="8dp"
+        android:padding="8dp"
+        android:text="@string/button_label_toast"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_toast"
+        android:layout_toEndOf="@+id/button_count"
+        android:layout_weight="2"
+        android:background="#FFFF00"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="128sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_toast"
+        android:background="@color/colorPrimary"
+        android:onClick="updateCounter"
+        android:paddingVertical="8dp"
+        android:padding="14dp"
+        android:text="count"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

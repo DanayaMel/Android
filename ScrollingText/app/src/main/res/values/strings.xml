@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ScrollingText</string>
+    <string name="article_title">SpaceX landed two of its three Falcon Heavy first-stage boosters</string>
+    <string name="article_subtitle">Posted 19 hours ago by Darrell Etherington (@etherington)</string>
+    <string name="article_text">SpaceX www.google.com has managed an incredible feat alongside its historic Falcon Heavy first test launch today — landing two of its boosters at once, nearly simultaneously, intact. The first-stage rockets used during today\'s launch included two flight-proven Falcon 9 boosters previously used during missions for SpaceX in 2016 and then refurbished, which landed at their intended destinations after decoupling from Falcon Heavy\'s second stage and returning to Earth. \n
+
+The side boosters landed, touching down at LZ-1 and LZ-2 at Kennedy Air Force Station, the designated landing pads SpaceX uses to recover its reusable rockets. But the core, middle booster, which attempted to land aboard \"Of Course I Still Love You,\" a drone barge that SpaceX uses as a mobile, ocean-borne landing pad stationed in the Atlantic for its flights departing from Florida, wasn\'t recovered. \n
+
+That core booster approached the platform as planned, but it unfortunately hit the water going 300 MPH and was lost, because some of its return engines failed to light. Video feeds of the attempted landing cut out upon approach, and in the live stream SpaceX provided of the launch, you could hear someone say \"We’ve lost the core\" but it wasn\'t clear whether that indicated just the feed, or the booster itself.
+
+Still, two out of three first stages recovered is a tremendous achievement, which acts as not only a demonstration of SpaceX\'s progress when it comes to making sure its boosters can return smoothly from their flights, but also a key new proof of concept regarding Elon Musk\'s vision of reusable spaceflight. Eventually, Musk hopes to be able to turn rockets around in less than 24 hours and have reflown boosters go up twice in one day. \n
+
+Falcon Heavy, SpaceX\'s heavy-lift space vehicle with a 140,000-pound cargo capacity for low-Earth orbit, will be crucial to establishing a near-Earth staging area for missions to Mars and beyond, and reusability will be key if Musk is ever going to achieve the cost reductions he\'s looking for. Being able to land two of three Falcon boosters used for Falcon Heavy at once, on their first try, is a tremendous step in the right direction toward making that kind of reusability more feasible.</string>
+</resources>

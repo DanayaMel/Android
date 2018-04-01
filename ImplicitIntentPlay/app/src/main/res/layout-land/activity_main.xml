@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.danaya.implicitintentplay.MainActivity">
+
+    <EditText
+        android:id="@+id/editText_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:hint="@string/edit_text_web_hint"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/button_Web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary"
+        android:text="Open website."
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text_size_button"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText_Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:hint="@string/edit_text_location_hint"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/button_Location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary"
+        android:text="Find location on map."
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text_size_button"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:hint="@string/edit_text_text_hint"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/button_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary"
+        android:text="Send Text."
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text_size_button"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_Take_Pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/take_a_pic"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text_size_button"
+        android:textStyle="bold" />
+
+</LinearLayout>

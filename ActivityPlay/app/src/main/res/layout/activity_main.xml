@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="false"
+    android:layout_alignParentRight="false"
+    android:background="#04879C"
+    tools:context="com.example.danaya.activityplay.MainActivity">
+
+    <TextView
+        android:id="@+id/textView_Main1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:gravity="fill_horizontal"
+        android:text="@string/textView_Main1_reply"
+        android:layout_margin="@dimen/padding_default"
+        android:padding="@dimen/padding_default"/>
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="fill_horizontal"
+        android:padding="@dimen/padding_default"
+        android:text="@string/button_main_send"
+        android:textStyle="bold"
+        android:onClick="sendToSecondActivity"/>
+
+</RelativeLayout>

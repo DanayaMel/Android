@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ImplicitIntentPlay</string>
+    <string name="edit_text_web_hint">www.somewhere.com</string>
+    <string name="edit_text_location_hint">Enter a location.</string>
+    <string name="edit_text_text_hint">Enter Text.</string>
+    <string name="take_a_pic">Take a pic.</string>
+    <string name="dial_joey">Call Joey</string>
+</resources>
